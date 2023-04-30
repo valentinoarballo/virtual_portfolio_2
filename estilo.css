@@ -26,6 +26,10 @@ html{
     height: 50em;
 }
 
+.principal-cards{
+    padding: 2.8em 0em 0em 1em;
+}
+
 .left-section{
     float: left;
     width: 24%;
@@ -44,6 +48,7 @@ html{
 }
 
 .wtfisriocuarto{
+    margin: 1em 0em 1em 0em;
     height: 15em;
     width: auto;
     border-radius: 8px;
@@ -129,7 +134,7 @@ html{
 
 .card4{
     width: 40em;
-    height: 10em;
+    height: 10.5em;
 }
 
 .barra{
@@ -196,9 +201,8 @@ html{
 
 .contacto{
     display: flex;
-    width: 84em;
+    width: 82.1em;
     height: 6em;
-    margin: 1em;
     justify-content: center;
 }
 
