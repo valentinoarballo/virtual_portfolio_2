@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Raleway&display=swap');
+
+:root{
+    --main-color: #8B5F3D;
+    --light-main-color: #bd8c68;
+
+    --background-color: #F5ECD7;
+    --cards-background-color: #ebe2cd;
+
+    --contrast-font-color: #2E2E2E;
+    --light-font-color: #ffefc7;
+
+    --box-shadow-color: #c2baa6;
+} 
+
+html{
+    background: var(--background-color);
+    color: var(--contrast-font-color);
+    font-family: 'Castoro Titling', cursive;
+}
+.body{
+    display: flex;
+}
+
+.principal-sections{
+    height: 50em;
+}
+
+.left-section{
+    float: left;
+    width: 24%;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
+    border-right: solid 1px rgb(104, 104, 104);
+}
+
+.foto-mia{
+    height: 11em;
+    width: auto;
+    margin: 2em 0em 0em 0em;
+    border-radius: 100%;
+    filter: drop-shadow(2px 4px 5px var(--box-shadow-color));
+}
+
+.wtfisriocuarto{
+    height: 15em;
+    width: auto;
+    border-radius: 8px;
+    border: solid 3px var(--contrast-font-color);
+
+}
+
+
+.right-section{
+    float: right;
+    width: 75%;
+    display: flex;
+    padding: 2em 0em 0em 0em;
+}
+
+.cards{
+    font-family: 'Raleway', sans-serif;
+    margin: 1em;
+    float: inline-start;
+    background: var(--cards-background-color);
+    border-radius: 8px;
+    padding: 1em;
+    /* inset | offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: inset 0px 0px 7px 1px var(--box-shadow-color);
+}
+
+.card1{
+    width: 40em;
+    height: 15em;
+    color:var(--light-font-color);
+    text-align: justify;
+    background: linear-gradient(90deg, var(--main-color) 22%, var(--light-main-color) 100%); 
+    box-shadow: none;
+}
+
+.card2{
+    width: 40em;
+    height: 23em;
+
+}
+
+.skills{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card2 img{
+    height: 120px;
+    width: auto;
+    margin: 0.7em 2em;
+}
+
+.card3{
+    width: 40em;
+    height: 18em;
+    margin-top: -7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project h2{
+    margin: 5px 5px;
+}
+.project{
+    box-shadow: 0px 0px 7px 1px var(--box-shadow-color);
+    border-radius: 8px;
+    height: 8em;
+    width: 19em;
+    margin: 2em 1em;
+
+}
+
+.card4{
+    width: 40em;
+    height: 10em;
+}
+
+.barra{
+    font-family: 'Castoro Titling', cursive;
+    color: var(--light-font-color);
+    height: 2em;
+    padding: 0px;
+    margin: 1em;
+    border-radius: 4px;
+    background: var(--light-font-color);
+}
+
+.contenido-barra-ingles h3{
+    margin: 0px;
+    padding: 5px;
+}
+
+.contenido-barra-ingles{
+    margin: 0px;
+    height: 100%;
+    width: 60%;
+    background: var(--light-font-color);
+    background: linear-gradient(90deg, var(--main-color) 22%, var(--light-main-color) 100%);
+    border-radius: 4px;
+}
+
+.contenido-barra-español h3{
+    margin: 0px;
+    padding: 5px;
+}
+
+.contenido-barra-español{
+    margin: 0px;
+    height: 100%;
+    width: 97%;
+    background: var(--light-font-color);
+    background: linear-gradient(90deg, var(--main-color) 22%, var(--light-main-color) 100%);
+    border-radius: 4px;
+}
+
+.cajitas{
+    border: solid 0.1px var(--contrast-font-color);
+    border-radius: 8px;
+    background: none;
+    padding: 1em;
+    margin: 1em 1em;
+    color: var(--contrast-font-color);
+    font-size: 18px;
+}
+
+.cajitas:focus{
+    color:black;
+    background-color: white;
+}
+
+.submit{
+    border: none;
+    background: var(--light-font-color);
+}
+
+.submit:hover{
+    transform: scale(1.1);
+}
+
+.contacto{
+    display: flex;
+    width: 84em;
+    height: 6em;
+    margin: -8em 0em 0em 2em;
+    justify-content: center;
+}
+
