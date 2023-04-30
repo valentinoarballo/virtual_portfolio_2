@@ -55,19 +55,28 @@ html{
 .right-section{
     float: right;
     width: 75%;
-    display: flex;
     padding: 2em 0em 0em 0em;
 }
 
 .cards{
     font-family: 'Raleway', sans-serif;
-    margin: 1em;
+    margin: 0.5em;
     float: inline-start;
     background: var(--cards-background-color);
     border-radius: 8px;
-    padding: 1em;
+    padding: 0.5em;
     /* inset | offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: inset 0px 0px 7px 1px var(--box-shadow-color);
+}
+
+.separador-superior{
+    display: flex;
+    float: inline-start;
+}
+
+.separador-inferior{
+    display: flex;
+    float: inline-start;
 }
 
 .card1{
@@ -189,7 +198,7 @@ html{
     display: flex;
     width: 84em;
     height: 6em;
-    margin: -8em 0em 0em 2em;
+    margin: 1em;
     justify-content: center;
 }
 
