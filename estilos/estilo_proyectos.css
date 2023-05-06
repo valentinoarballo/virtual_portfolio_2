@@ -12,3 +12,31 @@
 
     --box-shadow-color: #c2baa6;
 } 
+
+html{
+    background: var(--background-color);
+    padding: 5.5em 0em 0em 0em;
+}
+
+.navbar{ 
+    display: inline-flex;
+    margin: -6.5em 0em 0em -1em;
+    position: fixed;
+    width: 101%;
+    background: var(--box-shadow-color);
+    align-items: center;
+}
+
+.navbar img{
+    margin: 1em 3em;
+}
+
+.sections{
+    margin: 1em;
+    padding: 1em 5em;
+    border: solid 1px black;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+

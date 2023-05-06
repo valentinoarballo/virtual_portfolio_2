@@ -91,6 +91,11 @@ html{
     text-align: justify;
     background: linear-gradient(90deg, var(--main-color) 22%, var(--light-main-color) 100%); 
     box-shadow: none;
+    letter-spacing: 2px;
+}
+
+.card1 h1{
+    border-bottom: solid 1px var(--light-main-color);
 }
 
 .card2{
